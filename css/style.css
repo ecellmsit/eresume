@@ -1,0 +1,47 @@
+body{
+   
+    margin:2% 0%;
+   /* font-family: 'Montserrat', sans-serif; */
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
+
+#skill_div{
+background-color: black;
+height:100%;
+width:100%;
+
+}
+#skill_div h1{
+    font-size:3em ;
+    line-height: 1.5;
+    padding-top:5%;
+    padding-bottom:5%;
+    color:white;
+    text-decoration: underline solid gold;
+
+}
+.chart{
+    position:relative;
+    
+    height: 300px;
+    padding-right: 4%;
+    line-height: 180px;
+    text-align: center;
+    color:white;
+    font-size:2em;
+    text-align: center;
+}
+.chart canvas{
+    position: absolute; 
+    top:0;
+    left:0;
+   
+}
+.skill_text{
+    position: relative;
+    color:#fff;
+    font-size:2em;
+    margin: 10%;
+}
+    
