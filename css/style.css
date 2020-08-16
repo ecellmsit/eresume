@@ -6,13 +6,23 @@ body{
    text-align: center;
 }
 
-#skill_div{
+ #skill_div{
 background-color: black;
 height:100%;
 width:100%;
 
 }
-#skill_div h1{
+.circlechart{
+    color:white;
+}
+.card{
+        background-color: black;
+        height:100%;
+        width:100%;
+        
+        
+}
+ #skill_div h1{
     font-size:3em ;
     line-height: 1.5;
     padding-top:5%;
@@ -20,6 +30,14 @@ width:100%;
     color:white;
     text-decoration: underline solid gold;
 
+} 
+.card h1{
+font-size:3em ;
+line-height: 1.5;
+padding-top:5%;
+padding-bottom:5%;
+color:white;
+text-decoration: underline solid gold;
 }
 .chart{
     position:relative;
