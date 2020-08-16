@@ -21,13 +21,13 @@ nav{
 
 .nav-list a {
     padding: 1vh 1vw;
-    color: black;
+    color: #fff;
     text-decoration: none;
     transition: background .5s ease;
 }
 
 .nav-list a:hover {
-    background: white;
+    background: darkorange;
 }
 
 .home{
@@ -60,6 +60,7 @@ nav{
 
 .home-intro p{
     margin-top: 20px;
+    color: #f4f4f4;
 }
 
 .home-css-shape{
@@ -79,9 +80,9 @@ nav{
         flex-direction: column;
     }
 
-    .home-img img{;
+    .home-img img{
         margin-bottom: 3vh;
-        width: 60vw;
+        width: 40vw;
     }
 
     .home-intro{
