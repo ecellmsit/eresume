@@ -1,0 +1,27 @@
+.education{
+    margin-top: 5vh;
+    padding: 5vh 10vw;
+    text-align: center;
+}
+
+.education h1 {
+    margin: 5vh 0;
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.education-list{
+    text-align: left;
+    line-height: 4vh;
+}
+
+.education-list div {
+    padding: 3vh 0;
+}
+
+.period{
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}

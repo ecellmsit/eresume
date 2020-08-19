@@ -9,6 +9,10 @@ nav{
     background: linear-gradient(180deg, #1cb5ee, #199FDA);
 }
 
+.name{
+    color: white;
+}
+
 .nav-list{
     display: flex;
 }
@@ -31,7 +35,7 @@ nav{
     width: 25px;
     height: 3px;
     border-radius: 3px;
-    background: black;
+    background: White;
 }
 
 .nav-list a {
