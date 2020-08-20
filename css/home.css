@@ -42,11 +42,12 @@ nav{
     padding: 1vh 1vw;
     color: #fff;
     text-decoration: none;
-    transition: background .5s ease;
+    transition: color .5s ease;
 }
 
 .nav-list a:hover {
-    background: darkorange;
+    font-weight: 500;
+    color: darkorange;
 }
 
 .home{

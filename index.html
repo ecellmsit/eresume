@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="./css/commons.css">
         <link rel="stylesheet" href="./css/home.css">
         <link rel="stylesheet" href="./css/education.css">
+        <link rel="stylesheet" href="./css/achievement.css">
         <script src="./js/commons.js"></script>
     </head>
     <body>
@@ -15,10 +16,11 @@
                 <h1>Name</h1>
             </div>
             <ul class="nav-list">
-                <li><a href="#">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Experience</a></li>
-                <li><a href="#">Education</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#achievement">Achievements</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <div class="square">
@@ -27,7 +29,7 @@
                 <div class="line3"></div>
             </div>
         </nav>
-        <section class="home">
+        <section class="home" id="home">
             <div class="home-img">
                 <img src="./images/logo.jpg" alt="">
             </div>
@@ -38,27 +40,58 @@
         </section>
         <div class="home-css-shape"></div>
 
-        <section class="education">
-            <h1>Education</h1>
-            <div class="education-list">
-                <div>
-                    <h2>Maharaja Surajmal Institute of Technology - B.Tech</h2>
-                    <p class="period">From - To</p>
-                    <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum veniam magni voluptatum hic consectetur.</p>                    
-                </div>
-                <div>
-                    <h2>Name of institute - your course</h2>
-                    <p class="period">From - To</p>
-                    <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum veniam magni voluptatum hic consectetur.</p>                    
-                </div>        
-                <div>
-                    <h2>Name of institute - your course</h2>
-                    <p class="period">From - To</p>
-                    <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum veniam magni voluptatum hic consectetur.</p>                    
-                </div>
-            </div>
+		<section class="education" id="education">
+			<h1>Education</h1>
+			<div class="underline">
+				<div></div>
+			</div>
+			<div class="timeline">
+				<div class="container left">
+					<div class="content">
+						<h2>Name of institute</h2>
+						<p class="period">From - To</p>
+						<p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum vel quod provident dolore corrupti corporis aliquam praesentium ducimus explicabo nam?</p>
+					</div>
+				</div>
+				<div class="container left">
+					<div class="content">
+						<h2>Name of institute</h2>
+						<p class="period">From - To</p>
+						<p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum vel quod provident dolore corrupti corporis aliquam praesentium ducimus explicabo nam?</p>
+					</div>
+				</div>
+				<div class="container left">
+					<div class="content">
+						<h2>Name of institute</h2>
+						<p class="period">From - To</p>
+						<p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum vel quod provident dolore corrupti corporis aliquam praesentium ducimus explicabo nam?</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <section class="achievement" id="achievement">
+			<h1>Achievements</h1>
+			<div class="underline">
+				<div></div>
+			</div>
+			<div class="col">
+				<div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit?</p>
+				</div>
+				<div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit?</p>
+				</div>
+				<div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit?</p>
+				</div>
+				<div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit?</p>
+				</div>
+			</div>
         </section>
 
-        <script src="./js/home.js"></script>
+		<script src="./js/home.js"></script>
+		<script src="./js/education.js"></script>
     </body>
 </html>
