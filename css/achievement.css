@@ -13,9 +13,9 @@
 }
 
 .underline{
-    margin-top: 2vh;
-    width: 80vw;
-    display: flex;
+    /* margin-top: 2vh; */
+    /* width: 80vw; */
+    /* display: flex; */
     justify-content: center;
     margin-bottom: 7vh;
 }
@@ -27,13 +27,39 @@
 }
 
 .col{
+    padding-bottom: 8vh;
     display: flex;
     justify-content: space-between;
+}
+
+.card{
+    margin: 0 10px;
+    padding: 3vh 1vw;
+    border: 2px solid darkorange;
+}
+
+.card h2{
+    margin: 1vh 0;
+}
+
+.card img {
+    margin: 2vh 0;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.date{
+    text-align: left;
+    color: #aaa;
 }
 
 @media screen and (max-width: 768px){
     .col{
         display: flex;
         flex-direction: column;
+    }
+
+    .card{
+        margin: 2vh 5vw;
     }
 }
