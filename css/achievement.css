@@ -35,7 +35,8 @@
 .achievement-card{
     margin: 0 10px;
     padding: 3vh 1vw;
-    border: 2px solid darkorange;
+    /* border: 2px solid darkorange; */
+    box-shadow: 0px 0px 5vmin 0px #ddd;
 }
 
 .achievement-card h2{
