@@ -35,7 +35,7 @@ nav{
     position: relative;
     width: 25px;
     height: 25px;
-    transition: transform .2s ease;
+    transition: transform .5s ease;
 }
 
 .dash{
@@ -57,7 +57,7 @@ nav{
 }
 
 .rotate{
-    transform: rotateZ(90deg);
+    transform: rotateZ(45deg);
 }
 
 .d-n{
