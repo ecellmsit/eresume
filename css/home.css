@@ -7,6 +7,7 @@ nav{
     position: fixed;
     font-size: 1.2rem;
     background: linear-gradient(180deg, #1cb5ee, #199FDA);
+    /* background:url(../images/3.jpg); */
     z-index: 100;
 }
 
@@ -92,6 +93,12 @@ nav{
     align-items: center;
     padding: 20vh 5vw 10vh 5vw;
     background: linear-gradient(180deg, #1CB5ee, #000046 90%);
+     /* background: #000428; 
+background: -webkit-linear-gradient(180deg,, #004e92, #000428 90%);  
+background: linear-gradient(180deg, #004e92,#00004d,#000033,#000428  90%);  */
+
+    /* background:url(../images/pexels-felix-mittermeier-957061.jpg) */
+
 }
 
 .home-img img{
