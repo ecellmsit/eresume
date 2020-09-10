@@ -12,20 +12,6 @@
     letter-spacing: 4px;
 }
 
-.underline{
-    margin-top: 2vh;
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 7vh;
-}
-
-.underline div{
-    width: 70px;
-    height: 3px;
-    background: darkorange;
-}
-
 .education-list{
     text-align: left;
     line-height: 4vh;

@@ -1,26 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-   
     margin:0%;
     font-family: 'Montserrat', sans-serif;
-     text-align: center;
+    text-align: center;
+    overflow-x: hidden;
 }
-.underline_e{
-    /* margin-top: 2vh; */
-    /* width: 80vw; */
-    /* display: flex; */
+
+.underline{
+    margin-top: 2vh;
+    width: 80vw;
+    display: flex;
     justify-content: center;
     margin-bottom: 7vh;
-  
 }
-.underline_e div{
-    width: 100px;
+
+.underline div{
+    width: 70px;
     height: 3px;
     background: darkorange;
-    
-    margin:1% 0% 5% 45%;
 }
-
-
 
 .skills{
     position: relative;
@@ -30,15 +33,16 @@ body{
 }
 
  #skill_div{
-background-color: black;
-position: relative;
-width:100%;
-padding :5% 2% 12%;
-
+    background-color: black;
+    position: relative;
+    width:100%;
+    padding :5% 2% 12%;
 }
+
 .circlechart{
     color:white;
 }
+
 .card{
         background-color: black;
         height:100%;
@@ -46,10 +50,6 @@ padding :5% 2% 12%;
       
 }
  .heading{
-     /* font-size:3em;
-    line-height: 1.2;
-    color:white;
-    text-decoration: underline solid #1C2833; */
     margin: 2vh 0 0 0;
     font-size: 2.3rem;
     font-weight: 500;
@@ -68,11 +68,8 @@ padding :5% 2% 12%;
 }
 
 .experience{
-    /* background-image:url(../images/pexels-negative-space-34088.jpg);  */
     background-image:url(../images/pexels-hasan-albari-1229861\ .jpg); 
- 
     background-attachment:fixed;
-   
     z-index:1;
     position: relative;
 }
@@ -83,60 +80,67 @@ padding :5% 2% 12%;
         position: relative;
         z-index:0;  
 }   
+
 dl{
     text-align:left ;
     justify-content: center;
     color:white;
 }
+
 dt{
     margin-left:1%;
     font-size:1.8em;
 }
+
 dd{
     font-size:1em ;
 }
 
- .icon
-   {
+.icon{
     opacity:0.9;
      font-size:1em;
-   }
-   /* contact section */
-.contact{
-    background:url(../images/2\ \(3\).jpg);
-   
 }
+
+.contact{
+    background:url(../images/bg-pic.jpg);
+}
+
 .subheading{
     
     font-size:1.2em ;
     color:white;
     letter-spacing: 2px;
 }
+
 .fab{
     font-size:2em;
     color:white;
     margin:2% 2% 2% 0%;
 
 }
+
 .social{
     margin-left:43%;
 }
+
 .fab:hover{
     color:#e6b3e6;
 }
-.icon2{
 
+.icon2{
     font-size:1.8em;
     color:white;
      margin-bottom:5%; 
     margin-left:36%;
 }
+
 .far{
     font-size:1.8em;
     color:white;
     margin-bottom:5%;
     margin-left:13%;
 }
+
 .title{
     font: size 0.5em;
     font-family:arial ;
@@ -145,14 +149,18 @@ dd{
     letter-spacing: 2px;
 }
 
-footer
-{
-    padding:1% 0% 1%;
-    background:black;
+.info{
+    display: flex;
 }
-footer h3{
-    
+
+footer {
+    padding: 1vh;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3 {
     font-size:1.5em;
     letter-spacing:1px;
-
 }
