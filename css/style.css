@@ -100,7 +100,7 @@ dd{
 
 .icon{
     opacity:0.9;
-     font-size:1em;
+    font-size:1em;
 }
 
 .contact{
@@ -166,3 +166,54 @@ footer h3 {
     font-size:1.5em;
     letter-spacing:1px;
 }
+
+.skill{
+    width: 25rem;
+    height: 4rem;
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 100px/50px;
+    padding: 1rem;
+    margin-left: 5%;
+    margin-bottom: 15%;
+ 
+}
+
+#talkbubble {
+    width: 125px;
+    height: 60px;
+    background: white;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+  #talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 17px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid white;
+    border-bottom: 13px solid transparent;
+}
+
+  .skills-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left:15%;
+}
+  .skill:after{
+    display: table;
+}
+  .column{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+  
