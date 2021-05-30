@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 nav{
     width: 100vw;
+    height: 60px;
     padding: 0 5vw;
     display: flex;
     justify-content: space-between;
@@ -14,6 +18,10 @@ nav{
 .name{
     color: white;
     z-index: 2;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-list{
@@ -83,8 +91,8 @@ nav{
 
 .nav-list a:hover {
     font-weight: 500;
-    color: darkorange;
-    text-decoration: underline darkorange;
+    /* padding-bottom: 10px; */
+    border-bottom: solid darkorange 2px;
 }
 
 .home{
