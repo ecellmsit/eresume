@@ -105,6 +105,7 @@ dd{
 
 .contact{
     background:url(../images/bg-pic.jpg);
+    background-size: cover;
 }
 
 .subheading{
@@ -216,4 +217,3 @@ footer h3 {
     width: 33.33%;
     height: 100%;
 }
-  
