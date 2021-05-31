@@ -118,7 +118,7 @@ dd{
     font-size:2em;
     color:white;
     margin:2% 2% 2% 0%;
-
+    cursor: pointer;
 }
 
 .social{
@@ -126,7 +126,7 @@ dd{
 }
 
 .fab:hover{
-    color:#e6b3e6;
+    color: #1AA9E3;
 }
 
 .icon2{
@@ -165,4 +165,14 @@ footer {
 footer h3 {
     font-size:1.5em;
     letter-spacing:1px;
+}
+@media screen and (max-width: 768px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    i {
+        margin: 0;
+    }
 }
